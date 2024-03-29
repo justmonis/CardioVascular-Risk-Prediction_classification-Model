@@ -58,6 +58,7 @@ Project Steps:
    <br>
    <ul>
 <li>Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).</li>
+    </ul>
   <br>
    <br>
 5. Model Selection and Training:
