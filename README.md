@@ -23,8 +23,9 @@ Project Steps:
 <br>
   <br>
  <li>Imputed missing values by employing median or mode imputation based on feature distributions. </li>
-Categorized features into categorical, discrete, and continuous.
-Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.
+  <li>Categorized features into categorical, discrete, and continuous.</li>
+  <li>Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.</li>
+
   <br>
    <br>
 2. Exploratory Data Analysis (EDA):
