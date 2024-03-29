@@ -1,7 +1,7 @@
 # CardioVascular-Risk-Prediction_classification-Model
-<h1 align="left">Retail Sales Prediction-Supervised-ML-Regression</h1>
 
-![Local GIF](img.jpg)
+
+![Local GIF](ali-hajiluyi-MhFJNz_D8t4-unsplash.jpg)
 
 <h3 align="Left">
 <br>
