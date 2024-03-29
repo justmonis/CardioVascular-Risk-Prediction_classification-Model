@@ -22,7 +22,7 @@ Project Steps:
 1.  Data Preprocessing:
 <br>
   <br>
-Imputed missing values by employing median or mode imputation based on feature distributions.
+ <li>Imputed missing values by employing median or mode imputation based on feature distributions. </li>
 Categorized features into categorical, discrete, and continuous.
 Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.
   <br>
