@@ -5,7 +5,7 @@
 
 <h3 align="Left">
 <br>
-# Problem Statement:
+ Problem Statement:
   <br>
 <br>
 The dataset originates from an ongoing cardiovascular study involving residents of Framingham, Massachusetts. Its primary aim is to predict whether a patient faces a 10-year risk of developing coronary heart disease (CHD). Comprising over 4000 records and 15 attributes, each attribute represents a potential risk factor, encompassing demographic, behavioral, and medical aspects..<br>
@@ -18,38 +18,50 @@ Tasked with analyzing a dataset from a cardiovascular study in Framingham, Massa
   <br>
 Project Steps:
 <br>
+  <br>
 1. Data Preprocessing:
 <br>
+  <br>
 Imputed missing values by employing median or mode imputation based on feature distributions.
 Categorized features into categorical, discrete, and continuous.
 Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.
   <br>
+   <br>
 2.Exploratory Data Analysis (EDA):
 <br>
+   <br>
 Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.
 Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.
 Identified correlations between features and their potential impact on CHD risk.
   <br>
+   <br>
 3.Feature Engineering:
 <br>
+   <br>
 Applied label encoding for categorical features.
 Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.
 Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.
 Selected pivotal features for further analysis.
   <br>
+   <br>
 4.Handling Imbalanced Data:
 <br>
+   <br>
 Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
   <br>
+   <br>
 Model Selection and Training:
 <br>
+   <br>
 Partitioned the data into training and testing subsets.
 Trained diverse machine learning models, including Logistic Regression, K-Nearest Neighbors, Random Forest, Naive Bayes, and XGBoost.
 Evaluated model performance using accuracy, precision, recall, F1-score, and AUC metrics.
 Tuned hyperparameters via GridSearchCV.
   <br>
+   <br>
 Model Conclusion:
 <br>
+   <br>
 Among all models, XGBoost emerged as the top performer.
 Post extensive hyperparameter tuning, the XGBoost model achieved remarkable accuracy, recording 99% on the training set and 94% on the test set.
 Key hyperparameters encompassed 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 5, and 'n_estimators': 300.
