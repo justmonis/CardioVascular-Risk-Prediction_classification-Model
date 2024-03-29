@@ -19,7 +19,7 @@ Tasked with analyzing a dataset from a cardiovascular study in Framingham, Massa
 Project Steps:
 <br>
   <br>
-1. Data Preprocessing:
+1.  Data Preprocessing:
 <br>
   <br>
 Imputed missing values by employing median or mode imputation based on feature distributions.
@@ -27,7 +27,7 @@ Categorized features into categorical, discrete, and continuous.
 Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.
   <br>
    <br>
-2.Exploratory Data Analysis (EDA):
+2. Exploratory Data Analysis (EDA):
 <br>
    <br>
 Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.
@@ -35,7 +35,7 @@ Unearthed insights regarding gender and smoking prevalence, diabetes rates, hype
 Identified correlations between features and their potential impact on CHD risk.
   <br>
    <br>
-3.Feature Engineering:
+3. Feature Engineering:
 <br>
    <br>
 Applied label encoding for categorical features.
@@ -44,13 +44,13 @@ Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.
 Selected pivotal features for further analysis.
   <br>
    <br>
-4.Handling Imbalanced Data:
+4. Handling Imbalanced Data:
 <br>
    <br>
 Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
   <br>
    <br>
-Model Selection and Training:
+5. Model Selection and Training:
 <br>
    <br>
 Partitioned the data into training and testing subsets.
