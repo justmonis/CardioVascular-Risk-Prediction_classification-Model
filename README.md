@@ -15,35 +15,44 @@ Project Summary:
   <br>
 Tasked with analyzing a dataset from a cardiovascular study in Framingham, Massachusetts, comprising 3,390 rows and 17 features, my objective was to develop a model capable of predicting a patient's 10-year risk of coronary heart disease. Despite the absence of duplicate values, the dataset did contain some missing data in certain features, albeit at a manageable percentage. The features furnished valuable patient information, encompassing age, education, gender, smoking status, as well as health-related metrics such as cholesterol levels, diabetes status, blood pressure, BMI, glucose levels, and heart rate.<br>
 <br>
-1. Data Collection and Cleaning:<br>
-* Gathered historical sales data for Rossmann stores, including competitor, holiday, customer, and daily sales details.
-- Ensured data integrity by cleaning and preparing the dataset, handling missing values, and addressing outliers.<br>
+  <br>
+Project Steps:
 <br>
-2. Exploratory Data Analysis (EDA):<br>
-- Conducted thorough EDA to extract insights through univariate, bivariate, and multivariate analysis.
-- Utilized visualizations to identify patterns and trends, providing valuable insights for decision-making.<br>
+1. Data Preprocessing:
 <br>
-3. Feature Engineering and Preprocessing: <br>
-- Engineered new features like PromoDuration and Competition Distance to capture crucial information.
-- Managed multicollinearity using VIF analysis and addressed outliers through the IQR technique.
-- Applied One-Hot Encoding to categorical variables and employed transformation techniques for data normalization.
+Imputed missing values by employing median or mode imputation based on feature distributions.
+Categorized features into categorical, discrete, and continuous.
+Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.
+  <br>
+2.Exploratory Data Analysis (EDA):
 <br>
+Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.
+Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.
+Identified correlations between features and their potential impact on CHD risk.
   <br>
-4. Model Selection and Training: <br>
-- Split the preprocessed data into training and testing sets to assess model performance.
-- Employed various machine learning algorithms, including linear regression, decision trees, and random forest, for sales prediction. <br>
-  <br>
-- Evaluated model performance using metrics such as R-squared score, mean square error, and root mean square error.
-- Utilized regularization techniques like Lasso, Ridge, and Elastic Net to enhance model performance.
+3.Feature Engineering:
 <br>
+Applied label encoding for categorical features.
+Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.
+Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.
+Selected pivotal features for further analysis.
   <br>
-5. Conclusion:<br>
-- After experimentation, the XGBoost model emerged as the top performer, achieving an R2 score of approximately 98% on the training data and maintaining 97% on the test dataset.
-- The model exhibited lower MSE and RMSE values compared to other models, indicating superior predictive accuracy.
-- Consistent performance across multiple evaluation metrics demonstrates robust generalization.
-- Residuals analysis confirmed the model's effectiveness in capturing underlying data patterns.
+4.Handling Imbalanced Data:
+<br>
+Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
   <br>
+Model Selection and Training:
+<br>
+Partitioned the data into training and testing subsets.
+Trained diverse machine learning models, including Logistic Regression, K-Nearest Neighbors, Random Forest, Naive Bayes, and XGBoost.
+Evaluated model performance using accuracy, precision, recall, F1-score, and AUC metrics.
+Tuned hyperparameters via GridSearchCV.
   <br>
-This project demonstrates the effective application of data analysis, feature engineering, and machine learning techniques to address real-world forecasting challenges in the retail industry, providing actionable insights for decision-making.  
+Model Conclusion:
+<br>
+Among all models, XGBoost emerged as the top performer.
+Post extensive hyperparameter tuning, the XGBoost model achieved remarkable accuracy, recording 99% on the training set and 94% on the test set.
+Key hyperparameters encompassed 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 5, and 'n_estimators': 300.
+The model accurately predicted 518 class 0 patients and 509 class 1 patients out of 1152 patients, with 90 false negatives and 35 false positives.
 
 </h3>
