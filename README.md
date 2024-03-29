@@ -40,13 +40,17 @@ Project Steps:
 
   <br>
    <br>
+
+
 3. Feature Engineering:
 <br>
    <br>
-Applied label encoding for categorical features.
-Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.
-Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.
-Selected pivotal features for further analysis.
+    <ul>
+ <li>Applied label encoding for categorical features.</li>
+<li>Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.</li>
+<li>Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.</li>
+<li>Selected pivotal features for further analysis.</li>
+</ul>
   <br>
    <br>
 4. Handling Imbalanced Data:
