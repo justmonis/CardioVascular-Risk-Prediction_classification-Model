@@ -31,9 +31,12 @@ Project Steps:
 2. Exploratory Data Analysis (EDA):
 <br>
    <br>
-Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.
-Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.
-Identified correlations between features and their potential impact on CHD risk.
+   <ul>
+  <li>Conducted comprehensive EDA, comprising univariate, bivariate, and multivariate analyses.</li>
+  <li>Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.</li>
+  <li>Identified correlations between features and their potential impact on CHD risk.</li>
+</ul>
+
   <br>
    <br>
 3. Feature Engineering:
