@@ -5,18 +5,18 @@
 
 <h3 align="Left">
 <br>
- Problem Statement:
+ <h2>Problem Statement:</h1>
   <br>
 <br>
 The dataset originates from an ongoing cardiovascular study involving residents of Framingham, Massachusetts. Its primary aim is to predict whether a patient faces a 10-year risk of developing coronary heart disease (CHD). Comprising over 4000 records and 15 attributes, each attribute represents a potential risk factor, encompassing demographic, behavioral, and medical aspects..<br>
 <br>
-Project Summary:
+<h2>Project Summary:</h1>
   <br>
   <br>
 Tasked with analyzing a dataset from a cardiovascular study in Framingham, Massachusetts, comprising 3,390 rows and 17 features, my objective was to develop a model capable of predicting a patient's 10-year risk of coronary heart disease. Despite the absence of duplicate values, the dataset did contain some missing data in certain features, albeit at a manageable percentage. The features furnished valuable patient information, encompassing age, education, gender, smoking status, as well as health-related metrics such as cholesterol levels, diabetes status, blood pressure, BMI, glucose levels, and heart rate.<br>
 <br>
   <br>
-Project Steps:
+<h2>Project Steps:</h1>
 <br>
   <br>
 1.  Data Preprocessing:
@@ -69,7 +69,7 @@ Project Steps:
    </ul>  
   <br>
    <br>
-Model Conclusion:
+<h2>Model Conclusion:</h1>
 <br>
    <br>
     <ul>
