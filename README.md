@@ -37,11 +37,8 @@ Project Steps:
   <li>Unearthed insights regarding gender and smoking prevalence, diabetes rates, hypertension prevalence, and age distributions.</li>
   <li>Identified correlations between features and their potential impact on CHD risk.</li>
 </ul>
-
-  <br>
+ <br>
    <br>
-
-
 3. Feature Engineering:
 <br>
    <br>
