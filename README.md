@@ -22,10 +22,11 @@ Project Steps:
 1.  Data Preprocessing:
 <br>
   <br>
+ <ul>
  <li>Imputed missing values by employing median or mode imputation based on feature distributions. </li>
   <li>Categorized features into categorical, discrete, and continuous.</li>
   <li>Opted not to address outliers, considering the health-oriented nature of the problem and the dataset's scale.</li>
-
+</ul>
   <br>
    <br>
 2. Exploratory Data Analysis (EDA):
