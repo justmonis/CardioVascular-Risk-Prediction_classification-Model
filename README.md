@@ -1,4 +1,4 @@
-# CardioVascular Risk Prediction - Classification Model
+# Cardiovascular Risk Prediction - Classification Model
 
 
 ![Local GIF](ali-hajiluyi-MhFJNz_D8t4-unsplash.jpg)
