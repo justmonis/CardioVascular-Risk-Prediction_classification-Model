@@ -46,7 +46,7 @@ Project Steps:
 <br>
    <br>
     <ul>
- <li>Applied label encoding for categorical features.</li>
+<li>Applied label encoding for categorical features.</li>
 <li>Introduced novel features like pulse_pressure, smoking_status, and diabetic_status.</li>
 <li>Calculated the Variance Inflation Factor (VIF) to gauge multicollinearity.</li>
 <li>Selected pivotal features for further analysis.</li>
@@ -56,24 +56,28 @@ Project Steps:
 4. Handling Imbalanced Data:
 <br>
    <br>
-Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).
+   <ul>
+<li>Mitigated dataset imbalance using SMOTE (Synthetic Minority Over-sampling Technique).</li>
   <br>
    <br>
 5. Model Selection and Training:
 <br>
    <br>
-Partitioned the data into training and testing subsets.
-Trained diverse machine learning models, including Logistic Regression, K-Nearest Neighbors, Random Forest, Naive Bayes, and XGBoost.
-Evaluated model performance using accuracy, precision, recall, F1-score, and AUC metrics.
-Tuned hyperparameters via GridSearchCV.
+    <ul>
+<li>Partitioned the data into training and testing subsets.</li>
+<li>Trained diverse machine learning models, including Logistic Regression, K-Nearest Neighbors, Random Forest, Naive Bayes, and XGBoost.</li>
+<li>Evaluated model performance using accuracy, precision, recall, F1-score, and AUC metrics.</li>
+<li>Tuned hyperparameters via GridSearchCV.</li>
+   </ul>  
   <br>
    <br>
 Model Conclusion:
 <br>
    <br>
-Among all models, XGBoost emerged as the top performer.
-Post extensive hyperparameter tuning, the XGBoost model achieved remarkable accuracy, recording 99% on the training set and 94% on the test set.
-Key hyperparameters encompassed 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 5, and 'n_estimators': 300.
-The model accurately predicted 518 class 0 patients and 509 class 1 patients out of 1152 patients, with 90 false negatives and 35 false positives.
-
+    <ul>
+<li>Among all models, XGBoost emerged as the top performer.</li>
+<li>Post extensive hyperparameter tuning, the XGBoost model achieved remarkable accuracy, recording 99% on the training set and 94% on the test set.</li>
+<li>Key hyperparameters encompassed 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 5, and 'n_estimators': 300.</li>
+<li>The model accurately predicted 518 class 0 patients and 509 class 1 patients out of 1152 patients, with 90 false negatives and 35 false positives.</li>
+</ul> 
 </h3>
